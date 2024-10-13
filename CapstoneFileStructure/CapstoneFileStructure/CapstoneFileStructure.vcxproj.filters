@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkRequestPacket.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DataDistPeer.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectoryHandler.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHandler.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FilePacket.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Metadata.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MetadataHandler.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketHeader.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Peer.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPClient.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UdpPacket.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPListener.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DataDistTracker.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DataDistServer.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PeerlistPacket.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PeerProgressPacket.cpp">
+      <Filter>Classes\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Chunk.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkRequestPacket.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDistPeer.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryHandler.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHandler.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePacket.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Metadata.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MetadataHandler.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketHeader.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Peer.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPClient.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPListener.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UdpPacket.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDistTracker.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDistServer.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PeerListPacket.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PeerProgressPacket.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{327113b0-7d5e-4e68-a4a9-beb76be4b90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Source">
+      <UniqueIdentifier>{ee55c722-2e50-434e-bd0f-123bf0764b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Headers">
+      <UniqueIdentifier>{722d1570-bdd1-4ada-9026-44ecf24ce24e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
